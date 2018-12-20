@@ -19,7 +19,7 @@ public interface APIRest {
 
 
 
-    static APIRest createDibaAPI() {
+    static APIRest createAPIRest() {
         Gson gson = new GsonBuilder()
                 .setDateFormat("yyyy-MM-dd'T'HH:mm:ssZ")
                 .create();

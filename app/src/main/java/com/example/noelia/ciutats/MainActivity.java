@@ -36,7 +36,7 @@ public class MainActivity extends AppCompatActivity {
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
 
 
-        apiRest = APIRest.createDibaAPI();
+        apiRest = APIRest.createAPIRest();
 
         Intent intent = getIntent();
 
